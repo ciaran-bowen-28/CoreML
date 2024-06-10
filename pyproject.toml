@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "coreml"
+version = "0.0.1"
+description = "A central location for multi-application Machine Learning functions"
+authors = ["Ciaran Bowen"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
